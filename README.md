@@ -5,11 +5,18 @@ Portal B2B de vendas para representantes, lojistas e indústria (catálogo, carr
 ## Stack
 React 18 + Vite 6 + TypeScript + Tailwind 4 + shadcn/ui (Radix).
 
+## Pré-requisitos
+- Node.js 20+ (`.nvmrc`) e npm
+
 ## Como rodar
 ```bash
 npm install
-npm run dev
+npm run dev      # http://localhost:5173
+npm run build    # gera dist/
+npm run preview  # serve o build localmente
 ```
+
+Não há variáveis de ambiente nem backend: os dados são mock (`src/app/data/`).
 
 Scripts: `build`, `preview`, `typecheck`, `format`.
 
