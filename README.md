@@ -21,4 +21,4 @@ Scripts: `build`, `preview`, `typecheck`, `format`.
 - `src/imports/` – briefing do produto
 
 ## Adaptando para outro cliente
-Trocar marca em: `src/assets/` (logo/banners), `src/styles/theme.css` (cores), `src/app/data/` (dados) e textos de `LoginPage`, `Sidebar` e `index.html`.
+Trocar marca em: `src/assets/brand-logo.png` (logo) e banners, `src/styles/theme.css` (cores), `src/app/data/` (dados) e textos de `LoginPage`, `Sidebar` e `index.html`.

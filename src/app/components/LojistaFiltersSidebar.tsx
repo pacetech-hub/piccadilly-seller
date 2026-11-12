@@ -6,7 +6,7 @@ import {
 } from "lucide-react";
 import type { Client } from "../data/mockData";
 import { products, formatCurrency } from "../data/mockData";
-import teslaLogo from "../../assets/tesla-footwear-logo.png";
+import brandLogo from "../../assets/brand-logo.png";
 
 export type CatalogFilters = {
   search: string;
@@ -94,7 +94,7 @@ export function LojistaFiltersSidebar({ filters, onChange, onLogout, profile = '
       {/* Logo */}
       <div className={`flex items-center border-b border-sidebar-border px-4 h-14 ${collapsed ? 'justify-center' : 'gap-3'}`}>
         <div className={`flex items-center justify-center flex-shrink-0 ${collapsed ? 'w-7 h-7' : 'h-8'}`}>
-          <img src={teslaLogo} alt="Tesla Footwear" className={collapsed ? 'h-6 w-auto object-contain' : 'h-7 w-auto object-contain'} />
+          <img src={brandLogo} alt="Piccadilly" className={collapsed ? 'h-6 w-auto object-contain' : 'h-7 w-auto object-contain'} />
         </div>
         {!collapsed && (
           <button onClick={() => setCollapsed(true)} className="ml-auto text-muted-foreground hover:text-foreground p-1 rounded">
@@ -286,7 +286,7 @@ export function LojistaFiltersSidebar({ filters, onChange, onLogout, profile = '
                 {profile === 'rep' ? 'Representante' : 'Lojista'}
               </div>
               <div className="text-muted-foreground truncate" style={{ fontSize: '0.7rem' }}>
-                {profile === 'rep' ? 'marcos@tesla.com.br' : 'loja@tesla.com.br'}
+                {profile === 'rep' ? 'marcos@piccadilly.com.br' : 'loja@piccadilly.com.br'}
               </div>
             </div>
             <button onClick={onLogout} className="text-muted-foreground hover:text-destructive p-1 rounded" title="Sair">

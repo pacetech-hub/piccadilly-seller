@@ -93,7 +93,7 @@ function LojistaProfile() {
       <Section icon={UserCheck} title="Representante responsável">
         <Field label="Nome" value="Marina Costa" />
         <Field label="Região" value="Sudeste — SP Capital" />
-        <Field label="E-mail" value={<span className="inline-flex items-center gap-1.5"><Mail className="w-3.5 h-3.5 text-muted-foreground" />marina.costa@tesla.com.br</span>} />
+        <Field label="E-mail" value={<span className="inline-flex items-center gap-1.5"><Mail className="w-3.5 h-3.5 text-muted-foreground" />marina.costa@piccadilly.com.br</span>} />
         <Field label="Telefone" value={<span className="inline-flex items-center gap-1.5"><Phone className="w-3.5 h-3.5 text-muted-foreground" />(11) 98765-4321</span>} />
       </Section>
 
@@ -122,7 +122,7 @@ function RepProfile() {
       <Section icon={Users} title="Dados pessoais">
         <Field label="Nome" value="Marina Costa" />
         <Field label="CPF" value="123.456.789-00" mono />
-        <Field label="E-mail" value="marina.costa@tesla.com.br" />
+        <Field label="E-mail" value="marina.costa@piccadilly.com.br" />
         <Field label="Telefone" value="(11) 98765-4321" />
         <Field label="Região de atuação" value="Sudeste — SP Capital e Grande SP" />
       </Section>
@@ -186,7 +186,7 @@ function AdminProfile() {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
       <Section icon={Building2} title="Dados da conta">
-        <Field label="Indústria" value="Tesla Footwear" />
+        <Field label="Indústria" value="Piccadilly" />
         <Field label="CNPJ" value="98.765.432/0001-10" mono />
         <Field label="Plano" value={<span className="px-2 py-0.5 rounded-md bg-primary/15 text-primary">Enterprise</span>} />
         <Field label="Nível de acesso" value={<span className="inline-flex items-center gap-1.5"><ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />Administrador master</span>} />
@@ -226,7 +226,7 @@ function AdminProfile() {
         <ul className="space-y-2">
           {[
             { who: 'marina.costa', what: 'criou pedido #4821', when: '5 min atrás' },
-            { who: 'admin@tesla', what: 'atualizou Tabela B', when: '2 h atrás' },
+            { who: 'admin@piccadilly', what: 'atualizou Tabela B', when: '2 h atrás' },
             { who: 'paulo.ramos', what: 'cadastrou novo lojista', when: 'hoje, 08:42' },
             { who: 'sistema', what: 'sincronização ERP concluída', when: 'hoje, 06:00' },
           ].map((l, i) => (
@@ -242,7 +242,7 @@ function AdminProfile() {
       </Section>
 
       <Section icon={Settings} title="Segurança e acesso">
-        <Field label="E-mail" value="admin@tesla.com.br" />
+        <Field label="E-mail" value="admin@piccadilly.com.br" />
         <Field label="Última alteração de senha" value="há 14 dias" />
         <Field label="Autenticação em 2 fatores" value={<StatusPill ok label="Obrigatória" />} />
         <Field label="Sessões ativas" value="2 dispositivos" />

@@ -79,7 +79,7 @@ const campaignsByTable: Record<string, { id: string; name: string; description: 
     { id: 'mid-year', name: 'Mid Year Boost', description: 'Coleção 2026 · 5% extra em pedidos acima de R$ 5.000', discount: 5 },
   ],
   'avista': [
-    { id: 'fidelidade', name: 'Fidelidade Tesla', description: 'Clientes recorrentes · 4% adicional', discount: 4 },
+    { id: 'fidelidade', name: 'Fidelidade Piccadilly', description: 'Clientes recorrentes · 4% adicional', discount: 4 },
   ],
   'promo': [
     { id: 'lancamento', name: 'Lançamento Coleção', description: 'Desconto especial na coleção atual', discount: 3 },

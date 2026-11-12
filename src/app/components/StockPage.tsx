@@ -81,7 +81,7 @@ export function StockPage() {
               <Boxes className="w-5 h-5 text-primary" />
             </div>
             <div>
-              <h2 className="text-foreground" style={{ fontSize: '1.05rem', fontWeight: 700, letterSpacing: '-0.01em' }}>Meu Estoque · Tesla Footwear</h2>
+              <h2 className="text-foreground" style={{ fontSize: '1.05rem', fontWeight: 700, letterSpacing: '-0.01em' }}>Meu Estoque · Piccadilly</h2>
               <p className="text-muted-foreground" style={{ fontSize: '0.78rem' }}>
                 Mantenha seu estoque atualizado para que o catálogo mostre alertas de ruptura corretamente para seus clientes finais.
               </p>

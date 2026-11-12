@@ -22,7 +22,7 @@ const THEMES = [
 const AI_PROMPTS = [
   'Nova coleção Inverno 2026 com exclusividade e sofisticação para distribuidores selecionados.',
   'Qualidade premium para calçados que combinam conforto e estilo nas estações frias.',
-  'Descubra a nova linha Tesla Footwear — onde tradição encontra inovação.',
+  'Descubra a nova linha Piccadilly — onde tradição encontra inovação.',
 ];
 
 export function MarketingStudio() {

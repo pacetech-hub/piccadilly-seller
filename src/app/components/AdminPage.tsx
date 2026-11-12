@@ -27,11 +27,11 @@ function ErpSyncNotice({ text }: { text: string }) {
 }
 
 const mockUsers = [
-  { id: 'U001', name: 'Marcos Andrade', email: 'marcos@tesla.com.br', role: 'Representante', region: 'Sudeste', status: 'ativo', lastLogin: '2026-06-11' },
-  { id: 'U002', name: 'Fernanda Lima', email: 'fernanda@tesla.com.br', role: 'Representante', region: 'Sul', status: 'ativo', lastLogin: '2026-06-10' },
-  { id: 'U003', name: 'Carlos Mendes', email: 'carlos@tesla.com.br', role: 'Representante', region: 'Sudeste', status: 'ativo', lastLogin: '2026-06-11' },
-  { id: 'U004', name: 'Ana Santos', email: 'ana@tesla.com.br', role: 'Representante', region: 'Nordeste', status: 'ativo', lastLogin: '2026-06-09' },
-  { id: 'U005', name: 'Rafael Costa', email: 'rafael@tesla.com.br', role: 'Admin', region: 'Nacional', status: 'ativo', lastLogin: '2026-06-11' },
+  { id: 'U001', name: 'Marcos Andrade', email: 'marcos@piccadilly.com.br', role: 'Representante', region: 'Sudeste', status: 'ativo', lastLogin: '2026-06-11' },
+  { id: 'U002', name: 'Fernanda Lima', email: 'fernanda@piccadilly.com.br', role: 'Representante', region: 'Sul', status: 'ativo', lastLogin: '2026-06-10' },
+  { id: 'U003', name: 'Carlos Mendes', email: 'carlos@piccadilly.com.br', role: 'Representante', region: 'Sudeste', status: 'ativo', lastLogin: '2026-06-11' },
+  { id: 'U004', name: 'Ana Santos', email: 'ana@piccadilly.com.br', role: 'Representante', region: 'Nordeste', status: 'ativo', lastLogin: '2026-06-09' },
+  { id: 'U005', name: 'Rafael Costa', email: 'rafael@piccadilly.com.br', role: 'Admin', region: 'Nacional', status: 'ativo', lastLogin: '2026-06-11' },
 ];
 
 const pricePolicies = [
@@ -124,7 +124,7 @@ export function AdminPage() {
       {/* Pricing Tab */}
       {activeTab === 'pricing' && !selectedPolicyId && (
         <div className="space-y-4">
-          <ErpSyncNotice text="Campanhas comerciais são somente leitura neste momento — os dados vêm diretamente das regras cadastradas no ERP da Tesla." />
+          <ErpSyncNotice text="Campanhas comerciais são somente leitura neste momento — os dados vêm diretamente das regras cadastradas no ERP da Piccadilly." />
           <div className="flex items-center justify-between">
             <p className="text-muted-foreground" style={{ fontSize: '0.85rem' }}>Políticas de preço ativas</p>
           </div>
@@ -195,7 +195,7 @@ export function AdminPage() {
               <ArrowLeft className="w-3.5 h-3.5" /> Voltar para políticas
             </button>
 
-            <ErpSyncNotice text="Esta política é somente leitura — a regra ativa vem do ERP da Tesla." />
+            <ErpSyncNotice text="Esta política é somente leitura — a regra ativa vem do ERP da Piccadilly." />
 
             {/* Identidade */}
             <div className="bg-card border border-border rounded-xl p-5">
@@ -291,7 +291,7 @@ export function AdminPage() {
       {/* Policies Tab */}
       {activeTab === 'policies' && (
         <div className="space-y-4">
-          <ErpSyncNotice text="Políticas são somente leitura neste momento — os valores exibidos refletem as regras vigentes no ERP da Tesla." />
+          <ErpSyncNotice text="Políticas são somente leitura neste momento — os valores exibidos refletem as regras vigentes no ERP da Piccadilly." />
           <div className="bg-card border border-border rounded-xl p-5">
             <h3 className="text-foreground mb-4" style={{ fontWeight: 600 }}>Configurações de aprovação</h3>
             <div className="space-y-4">
@@ -362,7 +362,7 @@ export function AdminPage() {
                 <div className="grid grid-cols-2 gap-3">
                   {[
                     { label: 'Nome completo', placeholder: 'Nome do usuário' },
-                    { label: 'E-mail', placeholder: 'email@tesla.com.br' },
+                    { label: 'E-mail', placeholder: 'email@piccadilly.com.br' },
                   ].map(field => (
                     <div key={field.label}>
                       <label className="block text-muted-foreground mb-1" style={{ fontSize: '0.75rem' }}>{field.label}</label>
@@ -480,10 +480,10 @@ export function AdminPage() {
             <h3 className="text-foreground mb-4" style={{ fontWeight: 600 }}>Informações da empresa</h3>
             <div className="grid grid-cols-2 gap-4">
               {[
-                { label: 'Nome da empresa', value: 'Tesla Footwear Indústria LTDA' },
+                { label: 'Nome da empresa', value: 'Piccadilly Indústria LTDA' },
                 { label: 'CNPJ', value: '12.345.678/0001-90' },
-                { label: 'Website', value: 'teslafootwear.com.br' },
-                { label: 'Suporte', value: 'suporte@tesla.com.br' },
+                { label: 'Website', value: 'piccadilly.com.br' },
+                { label: 'Suporte', value: 'suporte@piccadilly.com.br' },
               ].map(field => (
                 <div key={field.label}>
                   <label className="block text-muted-foreground mb-1" style={{ fontSize: '0.75rem' }}>{field.label}</label>

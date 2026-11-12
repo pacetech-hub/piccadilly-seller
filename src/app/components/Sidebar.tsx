@@ -7,7 +7,7 @@ import {
   UserCheck, Tag, Shield, Boxes,
 } from "lucide-react";
 import type { Client } from "../data/mockData";
-import teslaLogo from "../../assets/tesla-footwear-logo.png";
+import brandLogo from "../../assets/brand-logo.png";
 
 export type View =
   | 'dashboard' | 'catalog' | 'order-grade' | 'cart' | 'carts' | 'history'
@@ -87,7 +87,7 @@ export function Sidebar({ currentView, onNavigate, profile, onLogout, notificati
       {/* Logo */}
       <div className={`flex items-center border-b border-sidebar-border px-4 h-14 ${collapsed ? 'justify-center' : 'gap-3'}`}>
         <div className={`flex items-center justify-center flex-shrink-0 ${collapsed ? 'w-7 h-7' : 'h-8'}`}>
-          <img src={teslaLogo} alt="Tesla Footwear" className={collapsed ? 'h-6 w-auto object-contain' : 'h-7 w-auto object-contain'} />
+          <img src={brandLogo} alt="Piccadilly" className={collapsed ? 'h-6 w-auto object-contain' : 'h-7 w-auto object-contain'} />
         </div>
         {!collapsed && (
           <button onClick={() => setCollapsed(true)} className="ml-auto text-muted-foreground hover:text-foreground transition-colors p-1 rounded">
@@ -164,8 +164,8 @@ export function Sidebar({ currentView, onNavigate, profile, onLogout, notificati
               <span className="text-primary" style={{ fontSize: '0.65rem', fontWeight: 700 }}>TF</span>
             </div>
             <div className="flex-1 min-w-0">
-              <div className="text-foreground truncate" style={{ fontSize: '0.78rem', fontWeight: 500 }}>Tesla Footwear</div>
-              <div className="text-muted-foreground truncate" style={{ fontSize: '0.7rem' }}>admin@tesla.com.br</div>
+              <div className="text-foreground truncate" style={{ fontSize: '0.78rem', fontWeight: 500 }}>Piccadilly</div>
+              <div className="text-muted-foreground truncate" style={{ fontSize: '0.7rem' }}>admin@piccadilly.com.br</div>
             </div>
             <button onClick={onLogout} className="text-muted-foreground hover:text-destructive transition-colors p-1 rounded" title="Sair">
               <LogOut className="w-3.5 h-3.5" />
@@ -291,7 +291,7 @@ export function TopBar({ title, subtitle, profile, currentView, notifications = 
       <div className="flex-1 min-w-0 flex items-center gap-3">
         {currentView !== 'catalog' && (
           <div className="flex items-center pr-3 mr-1 border-r border-border h-8 flex-shrink-0">
-            <img src={teslaLogo} alt="Tesla Footwear" className="h-6 w-auto object-contain" />
+            <img src={brandLogo} alt="Piccadilly" className="h-6 w-auto object-contain" />
           </div>
         )}
         {/* Nav items à esquerda quando existem, caso contrário título */}

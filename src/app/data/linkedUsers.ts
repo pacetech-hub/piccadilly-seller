@@ -12,13 +12,13 @@ export interface LinkedUser {
 
 export const linkedUsers: LinkedUser[] = [
   // Vinculados ao representante Marcos Andrade
-  { id: 'LU001', name: 'Marcos Andrade', email: 'marcos@tesla.com.br', profile: 'Representante', status: 'ativo', lastLogin: '2026-07-14', ownerType: 'representante', ownerName: 'Marcos Andrade' },
-  { id: 'LU002', name: 'Juliana Prado', email: 'juliana.prado@tesla.com.br', profile: 'Preposto', status: 'ativo', lastLogin: '2026-07-10', ownerType: 'representante', ownerName: 'Marcos Andrade' },
-  { id: 'LU003', name: 'Diego Farias', email: 'diego.farias@tesla.com.br', profile: 'Preposto', status: 'inativo', lastLogin: '2026-06-02', ownerType: 'representante', ownerName: 'Marcos Andrade' },
+  { id: 'LU001', name: 'Marcos Andrade', email: 'marcos@piccadilly.com.br', profile: 'Representante', status: 'ativo', lastLogin: '2026-07-14', ownerType: 'representante', ownerName: 'Marcos Andrade' },
+  { id: 'LU002', name: 'Juliana Prado', email: 'juliana.prado@piccadilly.com.br', profile: 'Preposto', status: 'ativo', lastLogin: '2026-07-10', ownerType: 'representante', ownerName: 'Marcos Andrade' },
+  { id: 'LU003', name: 'Diego Farias', email: 'diego.farias@piccadilly.com.br', profile: 'Preposto', status: 'inativo', lastLogin: '2026-06-02', ownerType: 'representante', ownerName: 'Marcos Andrade' },
 
   // Vinculados a outros representantes (visíveis para a indústria)
-  { id: 'LU004', name: 'Fernanda Lima', email: 'fernanda@tesla.com.br', profile: 'Representante', status: 'ativo', lastLogin: '2026-07-13', ownerType: 'representante', ownerName: 'Fernanda Lima' },
-  { id: 'LU005', name: 'Carlos Mendes', email: 'carlos@tesla.com.br', profile: 'Representante', status: 'ativo', lastLogin: '2026-07-11', ownerType: 'representante', ownerName: 'Carlos Mendes' },
+  { id: 'LU004', name: 'Fernanda Lima', email: 'fernanda@piccadilly.com.br', profile: 'Representante', status: 'ativo', lastLogin: '2026-07-13', ownerType: 'representante', ownerName: 'Fernanda Lima' },
+  { id: 'LU005', name: 'Carlos Mendes', email: 'carlos@piccadilly.com.br', profile: 'Representante', status: 'ativo', lastLogin: '2026-07-11', ownerType: 'representante', ownerName: 'Carlos Mendes' },
 
   // Vinculados ao lojista Calçadão Paulista LTDA
   { id: 'LU006', name: 'Calçadão Paulista LTDA', email: 'compras@calcadaopaulista.com.br', profile: 'Lojista', status: 'ativo', lastLogin: '2026-07-14', ownerType: 'lojista', ownerName: 'Calçadão Paulista LTDA' },

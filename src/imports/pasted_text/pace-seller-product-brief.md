@@ -1,6 +1,6 @@
 Você é um Principal Product Designer + UX Architect + Staff Front-end Engineer especialista em SaaS B2B enterprise.
 
-Crie uma plataforma web responsiva chamada **Pace Seller**, para uma indústria calçadista B2B (Tesla Footwear), com experiência premium, moderna e altamente utilizável em desktop e mobile.
+Crie uma plataforma web responsiva chamada **Pace Seller**, para uma indústria calçadista B2B (Piccadilly), com experiência premium, moderna e altamente utilizável em desktop e mobile.
 
 ## Contexto do produto
 

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { ArrowRight, Eye, EyeOff } from "lucide-react";
-import teslaLogo from "../../assets/tesla-footwear-logo.png";
+import brandLogo from "../../assets/brand-logo.png";
 
 type Profile = "admin" | "rep" | "lojista";
 
@@ -16,7 +16,7 @@ const profiles = [
 
 export function LoginPage({ onLogin }: LoginPageProps) {
   const [showPassword, setShowPassword] = useState(false);
-  const [email, setEmail] = useState("admin@teslafootwear.com.br");
+  const [email, setEmail] = useState("admin@piccadilly.com.br");
   const [password, setPassword] = useState("••••••••");
   const [selectedProfile, setSelectedProfile] = useState<Profile>("admin");
   const [loading, setLoading] = useState(false);
@@ -42,7 +42,7 @@ export function LoginPage({ onLogin }: LoginPageProps) {
         />
         <div className="relative z-10">
           <div className="flex items-center gap-3">
-            <img src={teslaLogo} alt="Tesla Footwear" className="h-8 w-auto object-contain" />
+            <img src={brandLogo} alt="Piccadilly" className="h-8 w-auto object-contain" />
           </div>
         </div>
 
@@ -126,7 +126,7 @@ export function LoginPage({ onLogin }: LoginPageProps) {
       <div className="flex-1 flex items-center justify-center p-8">
         <div className="w-full max-w-sm">
           <div className="lg:hidden flex items-center gap-2 mb-10">
-            <img src={teslaLogo} alt="Tesla Footwear" className="h-7 w-auto object-contain" />
+            <img src={brandLogo} alt="Piccadilly" className="h-7 w-auto object-contain" />
           </div>
 
           <div>
