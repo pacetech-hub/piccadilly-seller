@@ -5,7 +5,9 @@ import {
   X, Package2, Eye, Zap, Check, Plus, Store, UserCheck,
 } from "lucide-react";
 import { products, Product, formatCurrency, Client } from "../data/mockData";
-import bannerLimitedAsset from "../../assets/banner-edicao-limitada.webp";
+import bannerMarshmallow from "../../assets/banner-marshmallow.webp";
+import bannerClassicos from "../../assets/banner-classicos.webp";
+import { BannerCarousel } from "./BannerCarousel";
 
 import type { CartContext, CartCreator } from "./CartsListPage";
 
@@ -537,13 +539,12 @@ export function CatalogPage({ onNavigate, externalFilters, onExternalFiltersChan
   return (
     <div className="p-6 space-y-5 max-w-[1400px] mx-auto w-full">
       {/* Promo Banner */}
-      <div className="rounded-2xl overflow-hidden border border-border shadow-sm">
-        <img
-          src={bannerLimitedAsset}
-          alt="Edição Limitada"
-          className="w-full h-auto object-cover"
-        />
-      </div>
+      <BannerCarousel
+        banners={[
+          { src: bannerMarshmallow, alt: "Marsh Mallow — a partir de R$ 89,90" },
+          { src: bannerClassicos, alt: "Clássicos com frete grátis" },
+        ]}
+      />
 
       {/* Header + Controls */}
       <div className="flex items-center gap-3 flex-wrap">
