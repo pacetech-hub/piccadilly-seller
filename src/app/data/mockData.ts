@@ -112,7 +112,7 @@ export const products: Product[] = [
   },
   {
     id: 'P002',
-    name: "Tênis Off White com Rosa",
+    name: "PICCADILLY MAXI TECH - Tênis Off White com Rosa",
     reference: '94802000000004',
     line: "Tênis",
     category: "Tênis",
@@ -192,7 +192,7 @@ export const products: Product[] = [
   },
   {
     id: 'P006',
-    name: "Sapato Silvia Salto Baixo Preto",
+    name: "PICCADILLY MAXI - Sapato Silvia Salto Baixo Preto",
     reference: '27905300000003',
     line: "Sapato",
     category: "Sapatos",
@@ -432,7 +432,7 @@ export const products: Product[] = [
   },
   {
     id: 'P018',
-    name: "Sandália Nathalia Salto Médio Preto",
+    name: "PICCADILLY MAXI - Sandália Nathalia Salto Médio Preto",
     reference: '24900800000004',
     line: "Sandália",
     category: "Sandálias",
