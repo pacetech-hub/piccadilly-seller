@@ -1,4 +1,4 @@
-# Pace Seller (Picadilly)
+# Pace Seller (Piccadilly)
 
 Portal B2B de vendas para representantes, lojistas e indústria (catálogo, carrinho, estoque, sell-out, marketing).
 
