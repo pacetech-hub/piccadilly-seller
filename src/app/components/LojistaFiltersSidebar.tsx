@@ -25,7 +25,7 @@ export const priceTables = [
 ];
 
 
-const lines = ['Todos', 'Premium', 'Urban', 'Sport', 'Flow', 'Flow XL', 'Coil', 'Hertz', 'Hertz Art'];
+const lines = ['Todos', 'Sapatilha', 'Sandália', 'Scarpin', 'Slingback', 'Tamanco', 'Tênis'];
 const categories = ['Todos', 'Social', 'Casual', 'Esportivo', 'Sandália', 'Bota'];
 
 const allColors = Array.from(

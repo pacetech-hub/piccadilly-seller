@@ -50,16 +50,16 @@ type PolicyCriteria = {
 };
 
 const initialCriteria: Record<string, PolicyCriteria> = {
-  P001: { clients: [], regions: ['Norte', 'Centro-Oeste', 'Nordeste'], reps: [], lines: ['Coil', 'Hertz'], products: [] },
+  P001: { clients: [], regions: ['Norte', 'Centro-Oeste', 'Nordeste'], reps: [], lines: ['Sapatilha', 'Tênis'], products: [] },
   P002: {
     clients: ['Calçados Beira Rio', 'Sapataria Central', 'Loja Modelo SP'],
     regions: ['Sul', 'Sudeste'],
     reps: ['Carlos Mendes', 'Ana Souza'],
-    lines: ['Flow XL', 'Flow', 'Hertz Art'],
+    lines: ['Sandália', 'Scarpin', 'Slingback'],
     products: [],
   },
-  P003: { clients: [], regions: [], reps: ['Rafael Costa'], lines: ['Flow XL'], products: [] },
-  P004: { clients: [], regions: [], reps: [], lines: ['Coil'], products: [] },
+  P003: { clients: [], regions: [], reps: ['Rafael Costa'], lines: ['Scarpin'], products: [] },
+  P004: { clients: [], regions: [], reps: [], lines: ['Tamanco'], products: [] },
 };
 
 const coveredClientsMock = [

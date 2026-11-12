@@ -368,7 +368,7 @@ function ProductDetailModal({ product, onClose, onAddGrade, onToggleFav, isFavor
   onToggleFav: () => void; isFavorite: boolean;
 }) {
   const [activeImg, setActiveImg] = useState(0);
-  const images = [product.image, product.image, product.image];
+  const images = product.images?.length ? product.images : [product.image];
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/70" onClick={onClose}>
       <div className="bg-card border border-border rounded-2xl w-full max-w-4xl max-h-[90vh] overflow-hidden shadow-2xl flex flex-col" onClick={e => e.stopPropagation()}>

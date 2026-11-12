@@ -15,25 +15,25 @@ interface Props {
 // Mock: linhas mais vendidas por período do lojista
 const linesByPeriod: Record<string, { name: string; units: number; revenue: number; growth: number; share: number }[]> = {
   '30d': [
-    { name: 'Flow XL Denim', units: 142, revenue: 12760, growth: 22.4, share: 28 },
-    { name: 'Coil Branco', units: 118, revenue: 11196, growth: 14.8, share: 23 },
-    { name: 'Flow Preto', units: 96, revenue: 7680, growth: 9.2, share: 18 },
-    { name: 'Hertz Marrom', units: 74, revenue: 6290, growth: -3.1, share: 14 },
+    { name: 'Sapatilha Vanessa Off White Esferas', units: 142, revenue: 12760, growth: 22.4, share: 28 },
+    { name: 'Tênis Fabi Preto', units: 118, revenue: 11196, growth: 14.8, share: 23 },
+    { name: 'Scarpin Carla Salto Médio Preto', units: 96, revenue: 7680, growth: 9.2, share: 18 },
+    { name: 'Tamanco Monica Salto Baixo Ouro', units: 74, revenue: 6290, growth: -3.1, share: 14 },
     { name: 'Step Casual', units: 58, revenue: 4640, growth: 5.6, share: 11 },
   ],
   '90d': [
-    { name: 'Flow XL Denim', units: 412, revenue: 37040, growth: 18.2, share: 26 },
-    { name: 'Coil Branco', units: 380, revenue: 36050, growth: 12.6, share: 24 },
-    { name: 'Flow XL Preto', units: 298, revenue: 26770, growth: 11.3, share: 19 },
-    { name: 'Flow Preto', units: 260, revenue: 20800, growth: 7.4, share: 16 },
-    { name: 'Hertz Marrom', units: 220, revenue: 18700, growth: 4.1, share: 15 },
+    { name: 'Sapatilha Vanessa Off White Esferas', units: 412, revenue: 37040, growth: 18.2, share: 26 },
+    { name: 'Tênis Fabi Preto', units: 380, revenue: 36050, growth: 12.6, share: 24 },
+    { name: 'Sandália Rita Salto Médio Prata', units: 298, revenue: 26770, growth: 11.3, share: 19 },
+    { name: 'Scarpin Carla Salto Médio Preto', units: 260, revenue: 20800, growth: 7.4, share: 16 },
+    { name: 'Tamanco Monica Salto Baixo Ouro', units: 220, revenue: 18700, growth: 4.1, share: 15 },
   ],
   '6m': [
-    { name: 'Flow XL Denim', units: 920, revenue: 82620, growth: 19.4, share: 27 },
-    { name: 'Coil Branco', units: 810, revenue: 76870, growth: 14.2, share: 23 },
-    { name: 'Flow XL Preto', units: 680, revenue: 61080, growth: 10.8, share: 19 },
-    { name: 'Flow Preto', units: 590, revenue: 47200, growth: 8.6, share: 17 },
-    { name: 'Hertz Marrom', units: 480, revenue: 40800, growth: 5.2, share: 14 },
+    { name: 'Sapatilha Vanessa Off White Esferas', units: 920, revenue: 82620, growth: 19.4, share: 27 },
+    { name: 'Tênis Fabi Preto', units: 810, revenue: 76870, growth: 14.2, share: 23 },
+    { name: 'Sandália Rita Salto Médio Prata', units: 680, revenue: 61080, growth: 10.8, share: 19 },
+    { name: 'Scarpin Carla Salto Médio Preto', units: 590, revenue: 47200, growth: 8.6, share: 17 },
+    { name: 'Tamanco Monica Salto Baixo Ouro', units: 480, revenue: 40800, growth: 5.2, share: 14 },
   ],
 };
 

@@ -25,15 +25,15 @@ const riskClientsAdmin = [
 ];
 
 const stalledProductsRep = [
-  { sku: 'SKU-8821', name: 'Bota Chelsea Couro Preta', line: 'Flow XL', days: 67, stock: 142 },
-  { sku: 'SKU-7745', name: 'Oxford Clássico Marrom', line: 'Hertz Art', days: 54, stock: 98 },
-  { sku: 'SKU-9012', name: 'Derby Casual Urban', line: 'Flow', days: 48, stock: 76 },
+  { sku: 'SKU-8821', name: 'Scarpin Carla Salto Médio Preto', line: 'Scarpin', days: 67, stock: 142 },
+  { sku: 'SKU-7745', name: 'Sandália Rita Salto Médio Prata', line: 'Sandália', days: 54, stock: 98 },
+  { sku: 'SKU-9012', name: 'Tênis Fabi Preto', line: 'Tênis', days: 48, stock: 76 },
 ];
 
 const stalledProductsAdmin = [
-  { group: 'Flow XL', count: 14, units: 2840, value: 312000 },
-  { group: 'Hertz Art', count: 9, units: 1620, value: 198000 },
-  { group: 'Flow', count: 7, units: 1180, value: 142000 },
+  { group: 'Scarpin', count: 14, units: 2840, value: 312000 },
+  { group: 'Sandália', count: 9, units: 1620, value: 198000 },
+  { group: 'Tênis', count: 7, units: 1180, value: 142000 },
   { group: 'Urban Series', count: 5, units: 720, value: 86000 },
 ];
 
@@ -45,15 +45,15 @@ const repMonthlyRep = [
 
 // Ruptura no Catálogo — produtos indisponíveis para compra
 const catalogRuptureRep = [
-  { sku: 'SKU-001', name: 'Bota Chelsea Couro Preta', line: 'Flow XL', lastStock: 0, clientsAffected: 3, lastSale: 12 },
-  { sku: 'SKU-002', name: 'Oxford Clássico Marrom', line: 'Hertz Art', lastStock: 0, clientsAffected: 2, lastSale: 8 },
-  { sku: 'SKU-003', name: 'Derby Casual Urban', line: 'Flow', lastStock: 0, clientsAffected: 5, lastSale: 5 },
+  { sku: 'SKU-001', name: 'Scarpin Carla Salto Médio Preto', line: 'Scarpin', lastStock: 0, clientsAffected: 3, lastSale: 12 },
+  { sku: 'SKU-002', name: 'Sandália Rita Salto Médio Prata', line: 'Sandália', lastStock: 0, clientsAffected: 2, lastSale: 8 },
+  { sku: 'SKU-003', name: 'Tênis Fabi Preto', line: 'Tênis', lastStock: 0, clientsAffected: 5, lastSale: 5 },
 ];
 
 const catalogRuptureAdmin = [
-  { group: 'Flow XL', count: 4, skus: 'SKU-001, SKU-008, SKU-015, SKU-022', totalClients: 18 },
-  { group: 'Hertz Art', count: 3, skus: 'SKU-002, SKU-009, SKU-016', totalClients: 12 },
-  { group: 'Flow', count: 2, skus: 'SKU-003, SKU-010', totalClients: 9 },
+  { group: 'Scarpin', count: 4, skus: 'SKU-001, SKU-008, SKU-015, SKU-022', totalClients: 18 },
+  { group: 'Sandália', count: 3, skus: 'SKU-002, SKU-009, SKU-016', totalClients: 12 },
+  { group: 'Tênis', count: 2, skus: 'SKU-003, SKU-010', totalClients: 9 },
   { group: 'Urban Series', count: 1, skus: 'SKU-004', totalClients: 4 },
 ];
 

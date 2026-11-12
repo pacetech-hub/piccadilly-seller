@@ -25,6 +25,7 @@ Scripts: `build`, `preview`, `typecheck`, `format`.
 - `src/app/components/ui/` – componentes shadcn/ui
 - `src/styles/` – tema, fontes e Tailwind
 - `src/assets/` – logos e imagens
+- `src/assets/produtos/<produto>/NN.webp` – fotos oficiais (4 ângulos por produto) e `produtos.json` com nome, SKU e preço
 - `src/imports/` – briefing do produto
 
 ## Adaptando para outro cliente
