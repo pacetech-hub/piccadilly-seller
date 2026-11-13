@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Sparkles, Check, ChevronRight, ChevronLeft, Share2, Instagram, MessageCircle, Printer, Wand2, RefreshCw, Rocket, Tag, Trophy, Zap } from "lucide-react";
 import { products, formatCurrency } from "../data/mockData";
-import campaignPreviewMock from "@/assets/campaign-preview-mock.png";
+import campaignPreviewMock from "@/assets/campaign-preview-mock.webp";
 
 const OBJECTIVES = [
   { id: 'lancamento', label: 'Lançamento de coleção', icon: Rocket, description: 'Apresente novidades com destaque' },
